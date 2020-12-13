@@ -1,0 +1,16 @@
+{
+    "name": "sums",
+    "version": "1.0.0",
+    "main": "dist/index.html",
+    "scripts": {
+        "dev": "parcel serve src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "author": "Rahul Sethi <rahul+github@ramideas.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "firebase-tools": "^8.19.0",
+        "parcel": "^2.0.0-beta.1",
+        "parcel-transformer-svelte": "^1.0.8"
+    }
+}
