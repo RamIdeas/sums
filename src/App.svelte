@@ -217,6 +217,24 @@
         border-radius: 0.5vmin;
         height: 10vmin;
     }
+    @media (max-width: 810px) {
+        main {
+            grid-template-columns: repeat(5, 1fr);
+        }
+        .keypad {
+            grid-row: 3;
+            grid-column: 1 / 8;
+            max-width: 100vmin;
+            min-width: 50vmin;
+            justify-self: center;
+        }
+    }
+    @media (max-width: 600px) {
+        .keypad {
+            width: 100%;
+            justify-self: center;
+        }
+    }
 
     .ball {
         border-radius: 50%;
